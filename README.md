@@ -1,43 +1,208 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+![GitHub Logo](assets/images/logo.jpg)
+## Table of Contents
+- [Purpose](#Purpose)
+- [User Experience Design (UX)](#User-Experience-Design)
+  * [User stories](#User-Stories)
+    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+    * [Returning Visitor Goals](#Returning-Visitor-Goals)
+    * [Frequent User Goals](#Frequent-User-Goals)
+  * [Structure](#Structure)
+  * [Design](#Design)
+    * [Colour Scheme](#Colour-Scheme)
+    * [Typography](#Typography)
+    * [Imagery](#Imagery)
+    * [Wireframes](#Wireframes)
+* [Limitations](#Limitations)
+- [Features](#Features)
+    * [Existing Features](#Existing-Features)
+    * [Future Features](#Features-Left-to-Implement)
+- [Frameworks, Libraries & Programs Used](#Frameworks-Libraries-and-Programs-Used)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgements](#Acknowledgements)
 
-Welcome USER_NAME,
+# Milestone Project 1
+## Purpose
+This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
+It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Hair O' The Dog MCC (HOTD) Responsive Website
 
-## Gitpod Reminders
+The Hair O' The Dog Motorcycle club website is a place to showcase the general purpose and activities of the club. 
+It was designed to give an overview of everything club related from general activities, fundraising events to member information.
+*** 
+## User Experience Design
+### User stories
+#### First Time Visitor Goals
+* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+* As a First Time Visitor, I want to view the website and content clearly on my mobile device.
+* As a First Time Visitor, I want to find ways to follow the HOTD Club on different social media platforms.
+#### Returning Visitor Goals
+* As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.
+* As a Returning Visitor, I want to contact the organisation so I can request more information.
+#### Frequent User Goals
+* As a Frequent User, I want to check to see if there are any new upcoming events.
+* As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities.
+* As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+### Structure
+All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily.
+The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices.
+The purpose of this is to fulfill user story:
+> As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Home Page will contain a small bio about the club.
+The purpose of this is to fulfill user story:
+> As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-`python3 -m http.server`
+Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Boostrap Grid system.
 
-A blue button should appear to click: *Make Public*,
+All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
+images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
+The purpose of this is to fulfill user story:
+> As a First Time Visitor, I want to view the website and content clearly on my mobile device.
 
-Another blue button should appear to click: *Open Browser*.
+All pages will contain a Footer Element with Contact Information, Event Booking and Social Media Icons. The icons used will be
+from font-awesome. These are referenced below in the Frameworks-Libraries-and-Programs-Used section of this document. The event 
+Booking section will not be visible on smaller devices. The aim of the Footer elements are to fulfill user stories:
+> As a First Time Visitor, I want to find ways to follow the HOTD Club on different social media platforms.<br>
+> As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.<br>
+> As a Returning Visitor, I want to contact the club so I can request more information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The About Page will contain The History of the Club, their current members, titles and personal bios. This page is to help 
+implement user story:
+> As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-A blue button should appear to click: *Make Public*,
+The Events Page will contain information on upcoming and previous events run by the Club. There will be a booking form 
+connected to this page. Throughout the desktop version of the website there will also be an alert at the top of the page that 
+can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
+The purpose of this is to fulfull user stories:
+> As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.<br>
+> As a Frequent User, I want to check to see if there are any new upcoming events.
 
-Another blue button should appear to click: *Open Browser*.
+The Gallery Page will contain several Galleries with 8 photographs in each from various activities the club has engaged in.
+The purpose of these galleries are to fulfill user story:
+> As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+The Contact Page will contain a form that can be used to contact the Club through the website. This will also contain a check 
+box that will allow the user to sign up for the Clubs newsletter in order to keep up to date with the club.
+The purpose of this Page is to fulfill user stories:
+> As a Returning Visitor, I want to contact the organisation so I can request more information.<br>
+> As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+### Design
+#### Colour Scheme
+The two main colours used are Green (#0AF505) and Black (#000000) as per HOTD Club colours.
+#### Typography
+The titles on all pages throughout the Website are using the **Libre Baskerville** font while the main text is using the **Cabin** font.
+#### Imagery
+Brand is important to HOTD and they have provided their own Logo to be used in the Nav section of the website that will be displayed at all
+times no matter the device. The size and placement will vary dependant on screen size.
+#### Wireframes
+* [Home Page Wireframe](assets/wireframes/home.pdf)
 
-## Updates Since The Instructional Video
+* [About Page Wireframe](assets/wireframes/about.pdf)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* [Events Page Wireframe](assets/wireframes/events.pdf)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* [Gallery Page Wireframe](assets/wireframes/home.pdf)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* [Contact Page Wireframe](assets/wireframes/home.pdf)
+### Limitations
+Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) used for the Modal Form as outlined in the Frameworks Libraries and 
+Programs Used section, the contact forms will not store data or send email requests.
+***
+## Features
+ 
+### Existing Features
+- Alert on Desktop view (Alert present on index.html, about.html, gallery.html, contact.html) - This alert allows users to Book event tickets by opening up a modal form.
+- Booking button on the events.html page opens up the booking modal form (The same one as the alert)
+- Contact Form - This can be completed on the contact.html page and used in order to contact the club with any queries users may have.
+- Slide Show Gallery - This allows users to go through pictures of successful past events. This Gallery is controlled by the user.
+- Embedded YouTube video - This past event video can be turned on/off by the user. It is not set to automatically run.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features Left to Implement
+- Users would like to have a forum encorporated into the Website. This feature was not impletemented as part of the initial release but will be addressed in a future.
+- In order to impletement the use of the proposed forum, signup and logins would have to be added.
+***
+## Frameworks Libraries and Programs Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* HTML
+	* This project uses HTML as the main language used to complete the structure of the Website.
+* CSS
+	* This project uses custom written CSS to style the Website.
+* [Bootstrap](https://getbootstrap.com/)
+	* The Bootstrap framework is used throughout this website for layouts and styling.
+	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
+* [Font Awesome](https://fontawesome.com/)
+	* Font awesome Icons are used for the Social media links contained in the Footer section of the website.
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used throughout the project to import the *Libre Baskerville* and *Cabin* fonts.
+* [Visual Studio Code](https://code.visualstudio.com/)
+	* VS Code is the Integrated Development Environment used to develop the Website.
+* [GitHub](https://github.com/)
+	* Gib hub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* Git
+	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [TinyJPG](https://tinyjpg.com/)
+	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
+* Google Chrome Developer Tools
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* MS PAINT
+    * The dropper tool is this program was used against the Site logo to determine the exact shade of green to be used.
+* [CSS Generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+    * This was used to convert the RGBA colour for the site to Hex. 
+***
+## Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
---------
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Happy coding!
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+***
+## Deployment
+
+### Using Github Pages
+1. Navigate to the GitHub Repository: https://github.com/Daisy-McG/MilestoneProject-1
+1. Click the 'Settings' Tab.
+1. Scroll Down to the Git Hub Pages Heading.
+1. Select 'Master Branch' as the source.
+1. Click the Save button
+1. Click on this link to go to the live deployed page
+
+### Run Locally
+1. Navigate to the GitHub Repository: https://github.com/Daisy-McG/MilestoneProject-1
+1. Click the Code drop down menu
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the dialogue box
+1. Open your developement editor of choice and open a terminal window in a directory of your choice
+1. Use the 'git clone' command in terminal followed by the copied git URL
+1. A clone of the project will be created locally on your machine
+
+***
+## Credits
+### Content
+- The content of this software was created by Daisy McGirr based upon discussions with Ronnie Robinson, Hair O' The Dog MCC.
+
+### Media
+- The photos and video used in this video are property of Hair O' The Dog MCC. Permission was granted to use all media files by Ronnie Robinson, club Founder.
+
+### Acknowledgements
+
+- Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.
