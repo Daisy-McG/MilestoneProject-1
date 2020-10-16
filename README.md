@@ -143,7 +143,7 @@ Programs Used section, the contact forms will not store data or send email reque
 * [Visual Studio Code](https://code.visualstudio.com/)
 	* VS Code is the Integrated Development Environment used to develop the Website.
 * [GitHub](https://github.com/)
-	* Gib hub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+	* GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
 * Git
 	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
 * [TinyJPG](https://tinyjpg.com/)
