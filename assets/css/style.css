@@ -14,6 +14,7 @@ body {
 .main-text {
     font-family: "Cabin", sans-serif;
     font-size: 1rem;
+    color: darkgray;
 }
 
 /*---- Colours ----*/
@@ -41,7 +42,19 @@ header {
     display: inline-block;
 }
 
+.hr-style {
+    border: 1px solid #0AF505;
+    max-width: 25%;
+}
+
 /*---- Heading----*/
+.navigation-container {
+    overflow: hidden;
+}
+
+#logo {
+    max-height: 100%;
+}
 
 .navbar .nav-item a {
     font-weight: bold;
@@ -84,7 +97,15 @@ header {
     border-top: 1px solid #0AF505;
 }
 
+.section-content h1 {
+    text-align: center;
+}
+
 #club-photo {
    max-width: 100%; 
    padding: 20px;
+}
+
+.home-content {
+    margin-left: 10px;
 }
