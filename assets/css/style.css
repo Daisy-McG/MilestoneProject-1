@@ -17,10 +17,28 @@ header {
     border-top: 1px solid #0AF505;
 }
 
-/*---- Special margins & Positions ----*/
+.section-bg-color {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
 
+/*---- Special margins & Positions ----*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.section-content{
+    margin: 0;
+    padding: 0;
+}
 
 /*---- Heading----*/
+
 .navbar .nav-item a {
     font-weight: bold;
     font-size: 1.5rem;
@@ -29,11 +47,40 @@ header {
 .navbar .navbar-toggler {
     border: 0;
 }
-
 .moto-quote {
     font-size: 1rem;
+    max-width: 50%;
+    float: right;
 }
-/*---- Footer ----*/
 
+/*---- Footer ----*/
+#footer-details {
+    background-color: #000;
+    color: darkgray;
+    border-top: 1px solid #0AF505;
+}
+
+.social-links li i {
+    font-size: 2.5rem;
+    color: darkgray;
+    padding: 10px;
+}
+
+.footer-element {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 300;
+    color: #0AF505;
+    padding-top: 5px;
+}
+
+.footer-text {
+    font-family: "Cabin", sans-serif;
+    font-size: 1rem;
+}
 
 /*---- Home Page ----*/
+.section-content {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #0AF505;
+}
