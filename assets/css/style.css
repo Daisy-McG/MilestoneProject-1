@@ -123,8 +123,14 @@ section {
     margin: auto;
     text-align: center;
 }
-.events{
+.events {
     font-size: 1.5rem;
+    color: darkgrey;
+}
+
+.events:hover {
+    font-size: 1.5rem;
+    color: #0AF505;
 }
 
 /*---- Home Page ----*/
