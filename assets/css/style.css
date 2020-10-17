@@ -10,12 +10,20 @@ body {
     font-family: "Libre Baskerville", sans-serif;
     font-size: 2rem;
     padding: 20px 0 0 20px;
+    text-align: center;
 }
 .main-text {
     font-family: "Cabin", sans-serif;
     font-size: 1rem;
     color: darkgray;
     max-width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+
+.section-content {
+    border-top: 1px solid #0AF505;
+    overflow: hidden;
 }
 
 .buy-button {
@@ -38,6 +46,11 @@ header {
 section {
     background-color: #000;
 }
+
+.green-text {
+    color: #0AF505;
+}
+
 /*---- Special margins & Positions ----*/
 .uppercase {
     text-transform: uppercase;
@@ -102,24 +115,22 @@ section {
 }
 
 /*---- Home Page ----*/
-.section-content {
-    border-top: 1px solid #0AF505;
-    overflow: hidden;
-}
-
-.section-content h1 {
-    text-align: center;
-}
 
 #club-photo {
    max-width: 100%; 
    padding: 20px;
+   margin-top: 20px 0 10px;
 }
 
 .home-content {
     margin-left: 10px;
 }
 
+/*---- Events Page ----*/
+
+#event-poster {
+    max-width: 100%;
+}
 /*---- Gallery Page ----*/
 .gallery-one img{
     max-width: 100%;

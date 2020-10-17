@@ -47,8 +47,57 @@
         </header>
 
         <section>
-
+            <div class="container-fluid section-content inline-block">
+                <div class="row no-gutters">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="assets/images/poster.jpg" alt="Advertising poster. Tickets 7.50. Tatooist onsite." id="event-poster">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p class="heading-title">Fundraiser - Ride Free- The Injured Riders Charity</p>
+                        <hr class="hr-style" />
+                        <div class="main-text">
+                                <h5>Event information:</h5><br>
+                                <p><span class="green-text">Date:</span> Due to covid restrictions this event has been postponed until 01/10/2021<br>
+                                <span class="green-text">Where:</span> McGirrs Country Manner, Ramelton, Donegal.<br>
+                                <span class="green-text">In Aid of:</span> All proceeds go to Multiple Sclerosis Ireland
+                                </p>
+                            <p>To register interest and request a call back, please click <a href="contact.html">here</a></p>
+                        </div>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#booking-modal">Buy Tickets Now!</button>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <div class="modal" tabindex="-1" role="dialog" id="booking-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Book Event Tickets!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Please enter your full name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNo">Phone Number</label>
+                                <input type="text" class="form-control" id="phoneNo" placeholder="Please enter your Phone Number" />
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer class="container-fluid">
             <div id="footer-details" class="row">
