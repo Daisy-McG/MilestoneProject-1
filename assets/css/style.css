@@ -18,6 +18,10 @@ body {
     max-width: 100%;
 }
 
+.buy-button {
+    position: relative;
+}
+
 /*---- Colours ----*/
 
 header {
@@ -111,6 +115,7 @@ header {
 .home-content {
     margin-left: 10px;
 }
+
 
  @media (min-width: 572px) and (max-width: 694px){
     .navbar .nav-item a {
