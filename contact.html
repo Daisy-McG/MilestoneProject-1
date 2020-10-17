@@ -38,7 +38,7 @@
                                 <a class="nav-link" href="gallery.html">Gallery</a>
                             </li>
                             <li class="nav-item mr-2">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link active" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -52,8 +52,33 @@
         </header>
 
         <section>
-
+            <div class="form-container">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-sm-12 col-md-8 col-lg-4">
+                        <form class="main-text cont-form">
+                            <div class="form-group">
+                                <label for="full-name">Name:</label>
+                                <input type="text" class="form-control" id="full-name" aria-describedby="emailHelp" placeholder="Please enter your full name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Please enter your email" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="ph-number">Phone number:</label>
+                                <input type="text" class="form-control" id="ph-number" placeholder="(xxx)-xx-xxxxx" required/>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletter" />
+                                <label class="form-check-label" for="newsletter">Register for our Newsletter</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
+
 
         <div class="modal" tabindex="-1" role="dialog" id="booking-modal">
             <div class="modal-dialog">
@@ -99,13 +124,10 @@
                 </div>
                 <div class="col-sm-4 d-none d-md-block">
                     <h5 class="uppercase footer-element">Event Bookings</h5>
-                    <p class="inline-block main-text">
-                        Click the calendar icon to book event tickets.<br>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#booking-modal">
+                    <button type="button" class="btn btn-success events" data-toggle="modal" data-target="#booking-modal">
                         <i class="fas fa-calendar-check" aria-hidden="true"></i>
                             <span class="sr-only">Book event tickets link.</span>
-                        </button>
-                    </p>
+                     </button>
                 </div>
                 <div class="col-sm-4">
                     <h5 class="uppercase footer-element">Social Media</h5>

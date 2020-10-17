@@ -28,16 +28,16 @@ header {
     background-color: #000;
     margin: 0;
     padding: 0;
-}
-
-.hr-color {
-    border-top: 1px solid #0AF505;
+    border-bottom: 1px solid #0AF505;
 }
 
 .section-bg-color {
     background-color: #000;
 }
 
+section {
+    background-color: #000;
+}
 /*---- Special margins & Positions ----*/
 .uppercase {
     text-transform: uppercase;
@@ -96,10 +96,12 @@ header {
     padding-top: 5px;
 }
 
+.events {
+    margin: 10px;
+}
+
 /*---- Home Page ----*/
 .section-content {
-    margin: 0;
-    padding: 0;
     border-top: 1px solid #0AF505;
 }
 
@@ -114,6 +116,15 @@ header {
 
 .home-content {
     margin-left: 10px;
+}
+
+/*---- Contact Page ----*/
+
+.cont-form {
+    background-color: rgba(12, 240, 12, 0.2);
+    border-radius: 5%;
+    padding: 50px;
+    margin: 10px;
 }
 
 
