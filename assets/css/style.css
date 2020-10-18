@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #1e7e34;
     font-family: "Libre Baskerville", sans-serif;
     text-transform: uppercase;
+    padding-top: 1rem;
 }
 
 .main-text {
@@ -20,11 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content {
     overflow: hidden;
-    padding-bottom: 10px;
-}
-
-.format-heading {
-    padding: 10px;
+    padding-bottom: 1rem;
 }
 
 /*---- Special margins & Positions ----*/
@@ -49,8 +46,8 @@ header {
 }
 
 #logo {
-    height: 150px;
-    max-width: 150px;
+    height: 7.5rem;
+    max-width: 7.5rem;
     border-radius: 50%;
     border: 1px solid #06f806;
 }
@@ -73,10 +70,48 @@ header {
     float: right;
 }
 
+/*---- Home ----*/
+
+#club-photo{
+    padding-right: 1.5rem;
+}
+
+/*---- Events Page ----*/
+
+.carosel-container {
+    overflow: hidden;
+    max-width: 700px;
+    min-height: 337px;
+    margin: auto;
+}
+
+.carousel {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*---- Gallery Page ----*/
+.gallery-img img{
+    max-width: 100%;
+    padding: 4px;
+}
+
+/*---- Contact Page ----*/
+
+.cont-form {
+    background-color: rgba(12, 240, 12, 0.2);
+    border-radius: 5%;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.cont-form button{
+    margin-top: 1rem;
+}
+
 /*---- Footer ----*/
 footer {
-    margin-top: 10px;
-    padding-top: 15px;
+    padding-top: 1rem;
     border-top: 1px solid #1e7e34;
     overflow: hidden;
 }
@@ -101,38 +136,3 @@ footer {
     color: #1e7e34;
 }
 
-/*---- Home ----*/
-
-#club-photo{
-    padding-right: 15px;
-}
-
-/*---- Events Page ----*/
-
-.carosel-container {
-    overflow: hidden;
-    max-width: 50%;
-    min-height: 337px;
-    margin: auto;
-}
-
-.carousel {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/*---- Gallery Page ----*/
-.gallery-img img{
-    max-width: 100%;
-    padding: 4px;
-}
-
-/*---- Contact Page ----*/
-
-.cont-form {
-    background-color: rgba(12, 240, 12, 0.2);
-    border-radius: 5%;
-    padding: 50px;
-    margin: 20px;
-}
- 

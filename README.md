@@ -94,7 +94,7 @@ The purpose of this Page is to fulfill user stories:
 > As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 ### Design
 #### Colour Scheme
-The two main colours used are Green (#0AF505) and Black (#000000) as per HOTD Club colours.
+The two main colours used are Green (#1e7e34) and Black (#181818) as per HOTD Club colours.
 #### Typography
 The titles on all pages throughout the Website are using the **Libre Baskerville** font while the main text is using the **Cabin** font.
 #### Imagery
@@ -156,6 +156,8 @@ Programs Used section, the contact forms will not store data or send email reque
     * The dropper tool is this program was used against the Site logo to determine the exact shade of green to be used.
 * [CSS Generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
     * This was used to convert the RGBA colour for the site to Hex. 
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon 
 ***
 ## Testing
 
