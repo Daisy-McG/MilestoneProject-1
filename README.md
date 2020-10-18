@@ -127,7 +127,8 @@ Programs Used section, the contact forms will not store data or send email reque
 - Users would like to have a forum encorporated into the Website. This feature was not impletemented as part of the initial release but will be addressed in a future.
 - In order to impletement the use of the proposed forum, signup and logins would have to be added.
 ***
-## Frameworks Libraries and Programs Used
+## Technologies
+### Languages used
 
 * HTML
 	* This project uses HTML as the main language used to complete the structure of the Website.
@@ -136,6 +137,8 @@ Programs Used section, the contact forms will not store data or send email reque
 * [Bootstrap](https://getbootstrap.com/)
 	* The Bootstrap framework is used throughout this website for layouts and styling.
 	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
+
+### Frameworks Libraries and Programs Used
 * [Font Awesome](https://fontawesome.com/)
 	* Font awesome Icons are used for the Social media links contained in the Footer section of the website.
 * [Google Fonts](https://fonts.google.com/)
@@ -187,7 +190,7 @@ If this section grows too long, you may want to split it off into a separate fil
 1. Scroll Down to the Git Hub Pages Heading.
 1. Select 'Master Branch' as the source.
 1. Click the Save button
-1. Click on this link to go to the live deployed page
+1. Click on the link to go to the live deployed page
 
 ### Run Locally
 1. Navigate to the GitHub Repository: https://github.com/Daisy-McG/MilestoneProject-1
@@ -204,7 +207,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Media
 - The photos and video used in this video are property of Hair O' The Dog MCC. Permission was granted to use all media files by Ronnie Robinson, club Founder.
+- The YouTube video on the events page is property of Marijus Ltu. Permission was obtained to use this video.
 
 ### Acknowledgements
 
+- I'd like to thank my mentor Spencer Baribell for his guidance throughout my project. 
 - Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.
+- I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.
