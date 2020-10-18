@@ -73,8 +73,13 @@ header {
 
 /*---- Home ----*/
 
-#club-photo{
+#clubphoto{
     padding-right: 1.5rem;
+}
+
+/*---- About Page ----*/
+#club-ptoho     {
+    float: left;
 }
 
 /*---- Events Page ----*/
@@ -91,6 +96,10 @@ header {
 
 #event-poster {
     opacity: 0.5;
+}
+
+#frame-yt {
+    margin: 1rem;
 }
 
 /*---- Gallery Page ----*/
