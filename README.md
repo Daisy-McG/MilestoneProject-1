@@ -202,15 +202,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ***
 ## Credits
+### Code
+The code to style the check-box background color was taken from [Stackoverflow](https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do)
 ### Content
-- The content of this software was created by Daisy McGirr based upon discussions with Ronnie Robinson, Hair O' The Dog MCC.
+The content of this software was created by Daisy McGirr based upon discussions with Ronnie Robinson, Hair O' The Dog MCC.
 
 ### Media
-- The photos and video used in this video are property of Hair O' The Dog MCC. Permission was granted to use all media files by Ronnie Robinson, club Founder.
-- The YouTube video on the events page is property of Marijus Ltu. Permission was obtained to use this video.
+The photos and video used in this video are property of Hair O' The Dog MCC. Permission was granted to use all media files by Ronnie Robinson, club Founder.
+The YouTube video on the events page is property of Marijus Ltu. Permission was obtained to use this video.
 
 ### Acknowledgements
 
-- I'd like to thank my mentor Spencer Baribell for his guidance throughout my project. 
-- Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.
-- I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.
+I'd like to thank my mentor Spencer Baribell for his guidance throughout my project. 
+Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.
+I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.
