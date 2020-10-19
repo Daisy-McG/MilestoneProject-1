@@ -110,11 +110,15 @@ The headers on all pages throughout the Website are using the **Libre Baskervill
 Brand is important to HOTD and they have provided their own Logo to be used in the Nav section of the website that will be displayed at all
 times no matter the device. The size and placement may vary dependant on screen size. Photo's of club members and events will be present throughout the Website. These images have been provided by the club's found Ronnie Robinson.
 #### Wireframes
-
+Home Page
 ![Home Page Wireframe](assets/images/readme-images/home-wireframe.JPG)
+About Page
 ![About Page Wireframe](assets/images/readme-images/about-wireframe.JPG)
+Event Page
 ![Events Page Wireframe](assets/images/readme-images/events-wireframe.JPG)
+Gallery Page
 ![Gallery Page Wireframe](assets/images/readme-images/gallery-wireframe.JPG)
+Contact Page
 ![Contact Page Wireframe](assets/images/readme-images/contact-wireframe.JPG)
 
 For full side PDF's of the wireframes, please click the links below
@@ -137,7 +141,7 @@ Programs Used section, the contact forms will not store data or send email reque
 - Alert on Desktop view (Alert present on index.html, about.html, gallery.html, contact.html) - This alert allows users to Book event tickets by opening up a modal form.
 - Booking button on the events.html page opens up the booking modal form (The same one as the alert)
 - Contact Form - This can be completed on the contact.html page and used in order to contact the club with any queries users may have.
-- Slide Show Gallery - This allows users to go through pictures of successful past events. This Gallery is controlled by the user.
+- Carousel Gallery - There are 4 carousel sliders within the Website. One is on the Event Page displaying a few slides from a successfull fundraiser for Lifeline Inishowen. The remaining three are on the Gallery Page and are only displayed on small screen sizes to prevent the need for excessive scrolling.
 - Embedded YouTube video - This past event video can be turned on/off by the user. It is not set to automatically run.
 
 ### Features Left to Implement
