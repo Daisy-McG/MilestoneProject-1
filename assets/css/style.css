@@ -84,7 +84,7 @@ header {
 .moto-quote {
     font-size: 1rem;
     max-width: 50%;
-    float: right;
+    margin-left: auto;
 }
 
 /*---- Home ----*/
@@ -101,9 +101,15 @@ header {
 .member-pic {
     border-radius: 50%;
     border: 1px solid #1e7e34;
-    margin: 1rem;
+    margin: 0 auto;
     height: 7.5rem;
-    max-width: 7.5rem;
+    width: 7.5rem;
+}
+
+.member-alignment {
+    align-items: center;
+    display: flex;
+    padding-bottom: 8px;
 }
 
 /*---- Events Page ----*/
@@ -124,7 +130,9 @@ header {
 }
 
 #frame-yt {
-    margin: 1rem;
+    margin-top: 1rem;
+    width: 560px;
+    height: 315px;
 }
 
 /*---- Gallery Page ----*/
