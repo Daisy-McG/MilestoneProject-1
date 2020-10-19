@@ -237,7 +237,7 @@ The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 ***
 ## Credits
 ### Code
-The code to style the check-box background color was taken from [Stackoverflow](https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do)
+The code to style the check-box background color was taken from the comments of [Stackoverflow post](https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do)
 ### Content
 The content of this software was created by Daisy McGirr based upon discussions with Ronnie Robinson, Hair O' The Dog MCC.
 
