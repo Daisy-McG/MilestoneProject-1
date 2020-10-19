@@ -1,4 +1,4 @@
-![GitHub Logo](assets/images/logo.jpg)
+![Site Logo](assets/images/favicon/android-chrome-192x192.png)
 ## Table of Contents
 * [Purpose](#Purpose)
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -12,6 +12,7 @@
     * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
+    * [Differences to Design](Differences-to-Design)
 * [Limitations](#Limitations)
 - [Features](#Features)
     * [Existing Features](#Existing-Features)
@@ -131,6 +132,9 @@ For full side PDF's of the wireframes, please click the links below
 * [Gallery Page Wireframe](assets/wireframes/home.pdf)
 
 * [Contact Page Wireframe](assets/wireframes/home.pdf)
+
+#### Differences to Design
+In the original design, the Event section of the footer was to be hidden on smaller mobile devices to ensure adequate space and positioning. This was not implemented in the end as there was space to include it on all screen sizes.
 ### Limitations
 Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) used for the Modal Form as outlined in the Frameworks Libraries and 
 Programs Used section, the contact forms will not store data or send email requests.
