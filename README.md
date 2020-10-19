@@ -197,11 +197,13 @@ Programs Used section, the contact forms will not store data or send email reque
 
 Testing is required on MilestoneProject-1 – Hair O’ The Dog MCC Responsive Website.
 
-As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website.  
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
 
 No elements should overlap another container div. All elements should remain on the screen at all sizes above 300px. All carousel items should be controllable with the mouse as well as sliding on a timer. 
 
 All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
+
+All links to external websites must open in a new browser.
 
 Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
 
