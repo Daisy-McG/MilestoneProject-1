@@ -1,11 +1,12 @@
 ![GitHub Logo](assets/images/logo.jpg)
 ## Table of Contents
-- [Purpose](#Purpose)
-- [User Experience Design (UX)](#User-Experience-Design)
-  * [User stories](#User-Stories)
-    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
-    * [Returning Visitor Goals](#Returning-Visitor-Goals)
-    * [Frequent User Goals](#Frequent-User-Goals)
+* [Purpose](#Purpose)
+* [User Experience Design (UX)](#User-Experience-Design)
+  * [The Scope Plane](The-Scope-Plane )
+    * [User stories](#User-Stories)
+      * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+      * [Returning Visitor Goals](#Returning-Visitor-Goals)
+      * [Frequent User Goals](#Frequent-User-Goals)
   * [Structure](#Structure)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
@@ -16,10 +17,12 @@
 - [Features](#Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
-- [Frameworks, Libraries & Programs Used](#Frameworks-Libraries-and-Programs-Used)
-- [Testing](#Testing)
-- [Deployment](#Deployment)
-- [Credits](#Credits)
+* [Technologies](#Technologies)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+    * [GitHub Pages](#Using-Github-Pages)
+    * [Locally](Run-Locally)
+* [Credits](#Credits)
   * [Content](#Content)
   * [Media](#Media)
   * [Acknowledgements](#Acknowledgements)
@@ -27,14 +30,19 @@
 # Milestone Project 1
 ## Purpose
 This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
-It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found
+It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
 ## Hair O' The Dog MCC (HOTD) Responsive Website
 
-The Hair O' The Dog Motorcycle club website is a place to showcase the general purpose and activities of the club. 
-It was designed to give an overview of everything club related from general activities, fundraising events to member information.
+![Website Mock Up](assets/images/readme-images/mock-up.jpg)
+
+The Hair O' The Dog Motorcycle club Website was built at the request of Club Founder Rocket. The client wanted a fully responsive website that could be used to advertise and showcase their club and all activites. The client wants the ability to increase ticket sales for charity events by selling them though the website. Club information that is critical to the Website for the purpose of recruitment is information on the clubs values and the heirarchy of members. 
+
+The live website can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).
+
 *** 
 ## User Experience Design
+
 ### User stories
 #### First Time Visitor Goals
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
@@ -77,8 +85,7 @@ implement user story:
 > As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 The Events Page will contain information on upcoming and previous events run by the Club. There will be a booking form 
-connected to this page. Throughout the desktop version of the website there will also be an alert at the top of the page that 
-can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
+connected to this page. 
 The purpose of this is to fulfull user stories:
 > As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.<br>
 > As a Frequent User, I want to check to see if there are any new upcoming events.
@@ -92,15 +99,26 @@ box that will allow the user to sign up for the Clubs newsletter in order to kee
 The purpose of this Page is to fulfill user stories:
 > As a Returning Visitor, I want to contact the organisation so I can request more information.<br>
 > As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+Throughout the desktop version of the website there will also be an alert at the top of all pages except the Events Page. This
+can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
 ### Design
 #### Colour Scheme
 The two main colours used are Green (#1e7e34) and Black (#181818) as per HOTD Club colours.
 #### Typography
-The titles on all pages throughout the Website are using the **Libre Baskerville** font while the main text is using the **Cabin** font.
+The headers on all pages throughout the Website are using the **Libre Baskerville** font while the main text is using the **Cabin** font. 
 #### Imagery
 Brand is important to HOTD and they have provided their own Logo to be used in the Nav section of the website that will be displayed at all
-times no matter the device. The size and placement will vary dependant on screen size.
+times no matter the device. The size and placement may vary dependant on screen size. Photo's of club members and events will be present throughout the Website. These images have been provided by the club's found Ronnie Robinson.
 #### Wireframes
+
+![Home Page Wireframe](assets/images/readme-images/home-wireframe.JPG)
+![About Page Wireframe](assets/images/readme-images/about-wireframe.JPG)
+![Events Page Wireframe](assets/images/readme-images/events-wireframe.JPG)
+![Gallery Page Wireframe](assets/images/readme-images/gallery-wireframe.JPG)
+![Contact Page Wireframe](assets/images/readme-images/contact-wireframe.JPG)
+
+For full side PDF's of the wireframes, please click the links below
 * [Home Page Wireframe](assets/wireframes/home.pdf)
 
 * [About Page Wireframe](assets/wireframes/about.pdf)
@@ -128,7 +146,6 @@ Programs Used section, the contact forms will not store data or send email reque
 - In order to impletement the use of the proposed forum, signup and logins would have to be added.
 ***
 ## Technologies
-### Languages used
 
 * HTML
 	* This project uses HTML as the main language used to complete the structure of the Website.
@@ -137,8 +154,6 @@ Programs Used section, the contact forms will not store data or send email reque
 * [Bootstrap](https://getbootstrap.com/)
 	* The Bootstrap framework is used throughout this website for layouts and styling.
 	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
-
-### Frameworks Libraries and Programs Used
 * [Font Awesome](https://fontawesome.com/)
 	* Font awesome Icons are used for the Social media links contained in the Footer section of the website.
 * [Google Fonts](https://fonts.google.com/)
@@ -161,6 +176,8 @@ Programs Used section, the contact forms will not store data or send email reque
     * This was used to convert the RGBA colour for the site to Hex. 
 * [Favicon](https://favicon.io/)
     * Favicon.io was used to make the site favicon 
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
 ***
 ## Testing
 
