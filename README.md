@@ -115,15 +115,15 @@ Brand is important to HOTD and they have provided their own Logo to be used in t
 times no matter the device. The size and placement may vary dependant on screen size. Photo's of club members and events will be present throughout the Website. These images have been provided by the club's found Ronnie Robinson.
 #### Wireframes
 Home Page<br>
-![Home Page Wireframe](assets/images/wireframes/home-wireframe.JPG)<br>
+![Home Page Wireframe](assets/wireframes/home-wireframe.JPG)<br>
 About Page<br>
-![About Page Wireframe](assets/images/wireframes/about-wireframe.JPG)<br>
+![About Page Wireframe](assets/wireframes/about-wireframe.JPG)<br>
 Event Page<br>
-![Events Page Wireframe](assets/images/wireframes/events-wireframe.JPG)<br>
+![Events Page Wireframe](assets/wireframes/events-wireframe.JPG)<br>
 Gallery Page<br>
-![Gallery Page Wireframe](assets/images/wireframes/gallery-wireframe.JPG)<br>
+![Gallery Page Wireframe](assets/wireframes/gallery-wireframe.JPG)<br>
 Contact Page<br>
-![Contact Page Wireframe](assets/images/wireframes/contact-wireframe.JPG)<br>
+![Contact Page Wireframe](assets/wireframes/contact-wireframe.JPG)<br>
 
 For full side PDF's of the wireframes, please click the links below
 * [Home Page Wireframe](assets/wireframes/home.pdf)
@@ -205,8 +205,8 @@ All nav links should direct to the correct html pages as per their names. The Ho
 
 Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
 
-The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html). 
-![Test Cases](assets/readme-images/high-level-tc.jpg)
+The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).</br> 
+![Test Cases](assets/images/readme-images/high-level-tc.jpg)
 
 #### Out of Scope  
 
