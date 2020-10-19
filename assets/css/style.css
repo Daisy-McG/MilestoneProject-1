@@ -94,9 +94,6 @@ header {
 }
 
 /*---- About Page ----*/
-#club-photo {
-    max-width: 70%;
-}
 
 .member-pic {
     border-radius: 50%;
@@ -199,3 +196,24 @@ footer {
     font-size: 1rem;
    } 
 }
+
+@media only screen and (min-width: 100px)  {
+    h1 {
+     font-weight: bold;
+     font-size: 1rem;
+    } 
+ }
+
+ @media only screen and (min-width: 768px)  {
+    h1 {
+     font-weight: bold;
+     font-size: 1.5rem;
+    } 
+ }
+
+ @media only screen and (min-width: 992px)  {
+    h1 {
+     font-weight: bold;
+     font-size: 2rem;
+    } 
+ }
