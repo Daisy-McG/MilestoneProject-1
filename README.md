@@ -110,15 +110,15 @@ The headers on all pages throughout the Website are using the **Libre Baskervill
 Brand is important to HOTD and they have provided their own Logo to be used in the Nav section of the website that will be displayed at all
 times no matter the device. The size and placement may vary dependant on screen size. Photo's of club members and events will be present throughout the Website. These images have been provided by the club's found Ronnie Robinson.
 #### Wireframes
-Home Page
+Home Page<br>
 ![Home Page Wireframe](assets/images/readme-images/home-wireframe.JPG)
-About Page
+About Page<br>
 ![About Page Wireframe](assets/images/readme-images/about-wireframe.JPG)
-Event Page
+Event Page<br>
 ![Events Page Wireframe](assets/images/readme-images/events-wireframe.JPG)
-Gallery Page
+Gallery Page<br>
 ![Gallery Page Wireframe](assets/images/readme-images/gallery-wireframe.JPG)
-Contact Page
+Contact Page<br>
 ![Contact Page Wireframe](assets/images/readme-images/contact-wireframe.JPG)
 
 For full side PDF's of the wireframes, please click the links below
