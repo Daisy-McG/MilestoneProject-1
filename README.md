@@ -19,6 +19,9 @@
     * [Future Features](#Features-Left-to-Implement)
 * [Technologies](#Technologies)
 * [Testing](#Testing)
+    * [Test Strategy](#Test-Strategy)
+      * [Summary](#Summary)
+      * [Out of Scope](#Out-of-Scope)
 * [Deployment](#Deployment)
     * [GitHub Pages](#Using-Github-Pages)
     * [Locally](Run-Locally)
@@ -112,15 +115,15 @@ Brand is important to HOTD and they have provided their own Logo to be used in t
 times no matter the device. The size and placement may vary dependant on screen size. Photo's of club members and events will be present throughout the Website. These images have been provided by the club's found Ronnie Robinson.
 #### Wireframes
 Home Page<br>
-![Home Page Wireframe](assets/images/readme-images/home-wireframe.JPG)<br>
+![Home Page Wireframe](assets/images/wireframes/home-wireframe.JPG)<br>
 About Page<br>
-![About Page Wireframe](assets/images/readme-images/about-wireframe.JPG)<br>
+![About Page Wireframe](assets/images/wireframes/about-wireframe.JPG)<br>
 Event Page<br>
-![Events Page Wireframe](assets/images/readme-images/events-wireframe.JPG)<br>
+![Events Page Wireframe](assets/images/wireframes/events-wireframe.JPG)<br>
 Gallery Page<br>
-![Gallery Page Wireframe](assets/images/readme-images/gallery-wireframe.JPG)<br>
+![Gallery Page Wireframe](assets/images/wireframes/gallery-wireframe.JPG)<br>
 Contact Page<br>
-![Contact Page Wireframe](assets/images/readme-images/contact-wireframe.JPG)<br>
+![Contact Page Wireframe](assets/images/wireframes/contact-wireframe.JPG)<br>
 
 For full side PDF's of the wireframes, please click the links below
 * [Home Page Wireframe](assets/wireframes/home.pdf)
@@ -188,23 +191,28 @@ Programs Used section, the contact forms will not store data or send email reque
 ***
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Test Strategy 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Summary 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Testing is required on MilestoneProject-1 – Hair O’ The Dog MCC Responsive Website..  
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website.  
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+No elements should overlap another container div. All elements should remain on the screen at all sizes above 300px. All carousel items should be controllable with the mouse as well as sliding on a timer. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
+
+The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html). 
+![Test Cases](assets/readme-images/high-level-tc.jpg)
+
+#### Out of Scope  
+
+* Testing form validation for phone number is out of scope. No Reg-Ex has been implemented so this will take a string value. 
+
+#### High Level Test Cases 
 ***
 ## Deployment
 
