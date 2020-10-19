@@ -195,7 +195,7 @@ Programs Used section, the contact forms will not store data or send email reque
 
 #### Summary 
 
-Testing is required on MilestoneProject-1 – Hair O’ The Dog MCC Responsive Website..  
+Testing is required on MilestoneProject-1 – Hair O’ The Dog MCC Responsive Website.
 
 As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website.  
 
