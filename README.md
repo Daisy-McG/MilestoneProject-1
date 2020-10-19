@@ -111,15 +111,15 @@ Brand is important to HOTD and they have provided their own Logo to be used in t
 times no matter the device. The size and placement may vary dependant on screen size. Photo's of club members and events will be present throughout the Website. These images have been provided by the club's found Ronnie Robinson.
 #### Wireframes
 Home Page<br>
-![Home Page Wireframe](assets/images/readme-images/home-wireframe.JPG)
+![Home Page Wireframe](assets/images/readme-images/home-wireframe.JPG)<br>
 About Page<br>
-![About Page Wireframe](assets/images/readme-images/about-wireframe.JPG)
+![About Page Wireframe](assets/images/readme-images/about-wireframe.JPG)<br>
 Event Page<br>
-![Events Page Wireframe](assets/images/readme-images/events-wireframe.JPG)
+![Events Page Wireframe](assets/images/readme-images/events-wireframe.JPG)<br>
 Gallery Page<br>
-![Gallery Page Wireframe](assets/images/readme-images/gallery-wireframe.JPG)
+![Gallery Page Wireframe](assets/images/readme-images/gallery-wireframe.JPG)<br>
 Contact Page<br>
-![Contact Page Wireframe](assets/images/readme-images/contact-wireframe.JPG)
+![Contact Page Wireframe](assets/images/readme-images/contact-wireframe.JPG)<br>
 
 For full side PDF's of the wireframes, please click the links below
 * [Home Page Wireframe](assets/wireframes/home.pdf)
