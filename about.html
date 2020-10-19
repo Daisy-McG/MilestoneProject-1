@@ -14,6 +14,7 @@
     </head>
     <body>
         <header>
+            <!-- Start Navigation menu -->
             <div class="alert alert-dark main-text d-none d-md-block" role="alert">New Event tickets are on sale now. Click on the Buy Now button to 
                 buy early bird tickets at only €7.50!
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#booking-modal">Buy Now!</button> 
@@ -21,12 +22,13 @@
             
             <div class="container-fluid navigation-container">
                 <nav class="navbar navbar-dark navbar-expand-sm">
+                    <!-- Site Logo -->
                     <a href="#" class="navbar-brand"><img src="assets/images/logo.jpg" alt="HOTD logo" id="logo" /></a>
 
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
+                    <!-- Nav menu items -->
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item mr-2">
@@ -46,19 +48,88 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- Right side header side quote -->
                     <div class="d-none d-md-block">
                         <p class="navbar-text my-auto mr-2 moto-quote d-none d-lg-block">
                             "Lifes journey is not to arrive at the grave safely in a well preserved body, but rather to skid in sideways totally worn out, shouting "HOLY SHIT... what a ride"
                         </p>
                     </div>
                 </nav>
+                <!-- End Navigation menu -->
             </div>
         </header>
         
         <section>
+        <!-- Start Club History -->
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-sm-12 col-md-5 text-center">
+                        <img src="assets/images/club-photo.jpg" alt="Photo of the club members" class="img-fluid" id="club-photo"/>
+                    </div>
+                    <div class="col-sm-12 col-md-7 text-center">
+                        <h2>Hair O' The Dog Club History</h2>
+                        <hr class="hr-style">
+                        <p class="main-text">Text here</p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Start meet the Members -->
+            <div class="container-fluid">
+                <h2 class="text-center">Meet the Members</h2>
+                <hr class="hr-style">
+                <div class="row no-gutters main-text">
+                    <div class="col-sm-4 col-md-2">
+                        <img src="assets/images/members/rocket.jpg" alt="Member: Rocket" class="img-fluid member-pic"/>
+                    </div>
+                    <div class="col-sm-8 col-md-4">
+                        <h3>Rocket</h3>
+                        <p>Rocket is one of the founders of HOTD. He currently rides a Pan European and if you're ever on the road with him,
+                        you'll understand how he got his name when you see a sudden blur out of the corner of your right eye.</p>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                        <img src="assets/images/members/speedy.jpg" alt="Member: Speedy" class="img-fluid member-pic"/>
+                    </div>
+                    <div class="col-sm-8 col-md-4">
+                        <h3>Speedy</h3>
+                        <p>Speedy is one of the founders of HOTD. When he's not on his bike, he has the pace of a tortoise and is often late
+                        to the party. While the latter may be true, he will always be the last one standing.</p>
+                    </div>
+                </div>
+
+                <div class="row no-gutters main-text">
+                    <div class="col-sm-4 col-md-2">
+                        <img src="assets/images/members/taco.jpg" alt="Member: Taco" class="img-fluid member-pic"/>
+                    </div>
+                    <div class="col-sm-8 col-md-4">
+                        <h3>Taco</h3>
+                        <p>Taco is the club secretary and is one the First Six. He has a love for cheap cider and fast bikes but above all
+                        he has a peculiar love of taco sauce. Around two hours after beer-o-clock this man would eat anything, as long as
+                        it has a sparing amount of taco sauce doused on it.</p>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                        <img src="assets/images/members/batman.jpg" alt="Member: Batman" class="img-fluid member-pic"/>
+                    </div>
+                    <div class="col-sm-8 col-md-4">
+                        <h3>Batman</h3>
+                        <p>Batman is one of the First Six. By day he is the fun-loving family man, by night he is the saviour of 
+                        <del>Gotham</del> Ballybofey city!</p>
+                    </div>
+                </div>
+                <div class="row no-gutters main-text">
+                    <div class="col-sm-2">
+                        <img src="assets/images/members/the-gent.jpg" alt="Member: The Gent" class="img-fluid member-pic"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>The Gent</h3>
+                        <p>The Gent is the club treasurer and one of the First Six. This guy is the perfect gentleman when out and about 
+                        at rallies. Well until about 9pm, then he needs put carried to his tent. Sir cannot handle his wine.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End meet the Members -->
         </section>
-
+        <!-- Start Modal Booking form -->
         <div class="modal" tabindex="-1" role="dialog" id="booking-modal">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -88,9 +159,11 @@
                 </div>
             </div>
         </div>
+        <!-- End Modal Booking form -->
 
         <footer class="container-fluid">
             <div class="row">
+                <!-- Contact footer column -->
                 <div class="col-sm-6 col-md-4 text-center">
                     <h5>Contact</h5>
                     <p class="inline-block main-text">
@@ -100,7 +173,7 @@
                         <a href="tel:555-555-5555">Ph: 555-555-5555</a>
                     </p>
                 </div>
-
+                <!-- Event Booking footer column -->
                 <div class="col-sm-6 col-md-4 text-center">
                     <h5>Event Bookings</h5>
                     <p class="main-text">
@@ -111,7 +184,7 @@
                             <span class="sr-only">Book event tickets link.</span>
                      </button>
                 </div>
-
+                <!-- Social media footer column -->
                 <div class="col-sm-6 col-md-4 text-center">
                     <h5>Social Media</h5>
                     <ul class="list-inline social-links">
@@ -131,6 +204,7 @@
                 </div>
             </div>
         </footer>
+        <!-- Bootstrap JS/JQuery import scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </body>

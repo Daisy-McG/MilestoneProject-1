@@ -73,13 +73,21 @@ header {
 
 /*---- Home ----*/
 
-#clubphoto{
+#clubphoto {
     padding-right: 1.5rem;
 }
 
 /*---- About Page ----*/
-#club-ptoho     {
-    float: left;
+#club-photo {
+    max-width: 70%;
+}
+
+.member-pic {
+    border-radius: 50%;
+    border: 1px solid #1e7e34;
+    margin: 1rem;
+    height: 7.5rem;
+    max-width: 7.5rem;
 }
 
 /*---- Events Page ----*/
@@ -96,6 +104,7 @@ header {
 
 #event-poster {
     opacity: 0.5;
+    max-width: 80%;
 }
 
 #frame-yt {
