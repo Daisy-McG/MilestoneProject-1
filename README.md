@@ -212,7 +212,7 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).</br>
 #### High Level Test Cases 
-![Test Cases](assets/images/readme-images/high-level-tc.jpg)
+![Test Cases](assets/images/readme-images/high-level-tests.jpg)
 
 #### Out of Scope  
 
