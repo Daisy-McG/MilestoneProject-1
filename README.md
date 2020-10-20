@@ -22,6 +22,7 @@
     * [Test Strategy](#Test-Strategy)
       * [Summary](#Summary)
       * [Out of Scope](#Out-of-Scope)
+    * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
     * [GitHub Pages](#Using-Github-Pages)
     * [Locally](Run-Locally)
@@ -162,7 +163,7 @@ Programs Used section, the contact forms will not store data or send email reque
 * CSS
 	* This project uses custom written CSS to style the Website.
 * [Bootstrap](https://getbootstrap.com/)
-	* The Bootstrap framework is used throughout this website for layouts and styling.
+	* The Bootstrap framework is used throughout this website for layouts and styling. The car
 	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
 * [Font Awesome](https://fontawesome.com/)
 	* Font awesome Icons are used for the Social media links contained in the Footer section of the website.
@@ -214,7 +215,16 @@ The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 
 * Testing form validation for phone number is out of scope. No Reg-Ex has been implemented so this will take a string value. 
 
-#### High Level Test Cases 
+#### Issues and Resolutions to issues found during testing
+* Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
+* Photo alignment issue 
+* YouTube video on Events page was causing overlapping on small screens due to having a fixed size. This was resolved by removing fixed width and height and setting img-fluid in the div.
+* Navigation menu items were being covered on smaller screens due to amount of items and text not shrinking. This was resolved by adding a media query between min width 576px and max width 654px that changes to a smaller font size.
+* Spelling mistakes were found when proof reading, theres were corrected.
+* About page Meet the member section photos and text were overlapping on medium and below screens. This was fixed by correcting column sizes and adding class member-alignment with corresponding css styling.
+* On extra wide screens content was being stretched across the entire width of the screen. This was fixed by changing container-fluid to container.
+* Modal Booking form was accepting any inputs in fields. This was resolved by adding the required attribute to all fields.
+* Carousel on Events page was expanding the full width of the screen, this was causing the images to be distorted and strected. This was resolved by by adding a maximum height and width to the containing div.
 ***
 ## Deployment
 
