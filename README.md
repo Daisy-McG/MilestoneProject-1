@@ -107,7 +107,7 @@ Throughout the desktop version of the website there will also be an alert at the
 can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
 ### Design
 #### Colour Scheme
-The two main colours used are Green (#1e7e34) and Black (#181818) as per HOTD Club colours.
+The two main colours used are Green (#1e7e34) and Black (#181818) as these colours are similar to the clubs colours. A darker shade of green was picked than what is currently on the logo as the site would be too bright with the main colour. The darker green and off black shade should compliment each other without being over powering to the eyes.
 #### Typography
 The headers on all pages throughout the Website are using the **Libre Baskerville** font while the main text is using the **Cabin** font. 
 #### Imagery
@@ -119,7 +119,7 @@ Home Page<br>
 About Page<br>
 ![About Page Wireframe](assets/wireframes/about-wireframe.JPG)<br>
 Event Page<br>
-![Events Page Wireframe](assets/wireframes/events-wireframe.JPG)<br>
+![Events Page Wireframe](assets/wireframes/events-wireframe.jpg)<br>
 Gallery Page<br>
 ![Gallery Page Wireframe](assets/wireframes/gallery-wireframe.JPG)<br>
 Contact Page<br>
