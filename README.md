@@ -21,7 +21,9 @@
 * [Testing](#Testing)
     * [Test Strategy](#Test-Strategy)
       * [Summary](#Summary)
+      * [High Level Test Cases](#High-Level-Test-Cases)
       * [Out of Scope](#Out-of-Scope)
+    * [Test Results](#Test-Results)
     * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
     * [GitHub Pages](#Using-Github-Pages)
@@ -208,16 +210,21 @@ All links to external websites must open in a new browser.
 
 Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
 
-The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).</br> 
+The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).</br>
+#### High Level Test Cases 
 ![Test Cases](assets/images/readme-images/high-level-tc.jpg)
 
 #### Out of Scope  
 
 * Testing form validation for phone number is out of scope. No Reg-Ex has been implemented so this will take a string value. 
 
-#### Issues and Resolutions to issues found during testing
+### Test Results
+Testing results can be found [here](assets/test-results/test-results.xlsx)<br>
+Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.
+
+### Issues and Resolutions to issues found during testing
 * Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
-* Photo alignment issue 
+* Photo alignment issue on Home Page, this was fixed by adding bootstrap classes d-flex align-items-center and img-fluid.
 * YouTube video on Events page was causing overlapping on small screens due to having a fixed size. This was resolved by removing fixed width and height and setting img-fluid in the div.
 * Navigation menu items were being covered on smaller screens due to amount of items and text not shrinking. This was resolved by adding a media query between min width 576px and max width 654px that changes to a smaller font size.
 * Spelling mistakes were found when proof reading, theres were corrected.
@@ -257,6 +264,6 @@ The YouTube video on the events page is property of Marijus Ltu. Permission was 
 
 ### Acknowledgements
 
-I'd like to thank my mentor Spencer Baribell for his guidance throughout my project. 
-Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.
-I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.
+I'd like to thank my mentor Spencer Baribell for his guidance throughout my project.<br>
+Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.<br>
+I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.<br>
