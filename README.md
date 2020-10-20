@@ -219,6 +219,7 @@ The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 * Testing form validation for phone number is out of scope. No Reg-Ex has been implemented so this will take a string value. 
 
 ### Test Results
+[Results](assets/images/readme-images/test-results.JPG)
 Testing results can be found [here](assets/test-results/test-results.xlsx)<br>
 Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.
 
