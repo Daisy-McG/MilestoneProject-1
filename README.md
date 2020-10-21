@@ -222,7 +222,9 @@ The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 ![Results](assets/images/readme-images/test-results.JPG)<br>
 Testing results can be found [here](assets/test-results/test-results.xlsx)<br>
 Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.<br>
-All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.
+All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
+CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
+Website was tested by running locally and tested on the deployed version. No differences found.
 
 ### Issues and Resolutions to issues found during testing
 * Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
