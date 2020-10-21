@@ -155,7 +155,7 @@ Programs Used section, the contact forms will not store data or send email reque
 - Embedded YouTube video - This past event video can be turned on/off by the user. It is not set to automatically run.
 
 ### Features Left to Implement
-- Users would like to have a forum encorporated into the Website. This feature was not impletemented as part of the initial release but will be addressed in a future.
+- Users would like to have a forum incorporated into the Website. This feature was not impletemented as part of the initial release but will be addressed in a future.
 - In order to impletement the use of the proposed forum, signup and logins would have to be added.
 ***
 ## Technologies
@@ -221,7 +221,19 @@ The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 ### Test Results
 ![Results](assets/images/readme-images/test-results.JPG)<br>
 Testing results can be found [here](assets/test-results/test-results.xlsx)<br>
-Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.
+Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.<br>
+HTML Validator Results:<br>
+Home Page Validation<br>
+![Home](assets/images/readme-images/home-html-val.JPG)<br>
+About Page Validation<br>
+![About](assets/images/readme-images/about-html-val.JPG)<br>
+Events Page Validation<br>
+![Events](assets/images/readme-images/events-html-val.JPG)<br>
+Gallery Page Validation<br>
+![Gallery](assets/images/readme-images/gallery-html-val.JPG)<br>
+Contact Page Validation<br>
+![Contact](assets/images/readme-images/contact-html-val.JPG)
+
 
 ### Issues and Resolutions to issues found during testing
 * Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
