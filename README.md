@@ -155,8 +155,8 @@ Programs Used section, the contact forms will not store data or send email reque
 - Embedded YouTube video - This past event video can be turned on/off by the user. It is not set to automatically run.
 
 ### Features Left to Implement
-- Users would like to have a forum incorporated into the Website. This feature was not impletemented as part of the initial release but will be addressed in a future.
-- In order to impletement the use of the proposed forum, signup and logins would have to be added.
+- Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
+- In order to implement the use of the proposed forum, signup and logins would have to be added.
 ***
 ## Technologies
 
