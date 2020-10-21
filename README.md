@@ -228,7 +228,7 @@ Please note these results are a .xlsx file and will require excel, google docs o
 * Photo alignment issue on Home Page, this was fixed by adding bootstrap classes d-flex align-items-center and img-fluid.
 * YouTube video on Events page was causing overlapping on small screens due to having a fixed size. This was resolved by removing fixed width and height and setting img-fluid in the div.
 * Navigation menu items were being covered on smaller screens due to amount of items and text not shrinking. This was resolved by adding a media query between min width 576px and max width 654px that changes to a smaller font size.
-* Spelling mistakes were found when proof reading, theres were corrected.
+* Spelling mistakes were found when proof reading, these were corrected.
 * About page Meet the member section photos and text were overlapping on medium and below screens. This was fixed by correcting column sizes and adding class member-alignment with corresponding css styling.
 * On extra wide screens content was being stretched across the entire width of the screen. This was fixed by changing container-fluid to container.
 * Modal Booking form was accepting any inputs in fields. This was resolved by adding the required attribute to all fields.
