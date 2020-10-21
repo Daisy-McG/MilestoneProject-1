@@ -24,6 +24,7 @@
       * [High Level Test Cases](#High-Level-Test-Cases)
       * [Out of Scope](#Out-of-Scope)
     * [Test Results](#Test-Results)
+      * [HTML Validator Results](#HTML-Validator-Results)
     * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
     * [GitHub Pages](#Using-Github-Pages)
@@ -222,16 +223,16 @@ The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 ![Results](assets/images/readme-images/test-results.JPG)<br>
 Testing results can be found [here](assets/test-results/test-results.xlsx)<br>
 Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.<br>
-HTML Validator Results:<br>
-Home Page Validation<br>
+#### HTML Validator Results
+**Home Page Validation**<br>
 ![Home](assets/images/readme-images/home-html-val.JPG)<br>
-About Page Validation<br>
+**About Page Validation**<br>
 ![About](assets/images/readme-images/about-html-val.JPG)<br>
-Events Page Validation<br>
+**Events Page Validation**<br>
 ![Events](assets/images/readme-images/events-html-val.JPG)<br>
-Gallery Page Validation<br>
+**Gallery Page Validation**<br>
 ![Gallery](assets/images/readme-images/gallery-html-val.JPG)<br>
-Contact Page Validation<br>
+**Contact Page Validation**<br>
 ![Contact](assets/images/readme-images/contact-html-val.JPG)
 
 
