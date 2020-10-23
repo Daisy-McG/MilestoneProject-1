@@ -110,7 +110,7 @@ Throughout the desktop version of the website there will also be an alert at the
 can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
 ### Design
 #### Colour Scheme
-The two main colours used are Green (#1e7e34) and Black (#181818) as these colours are similar to the clubs colours. A darker shade of green was picked than what is currently on the logo as the site would be too bright with the main colour. The darker green and off black shade should compliment each other without being over powering to the eyes.
+The two main colours used are Green ![#1e7e34](https://placehold.it/15/1e7e34/000000?text=+) and an off shade of Black ![#181818](https://placehold.it/15/181818/000000?text=+) as these colours are similar to the clubs colours. A darker shade of green was picked than what is currently on the logo as the site would be too bright with the main colour. The darker green and off black shade should compliment each other without being over powering to the eyes.
 #### Typography
 The headers on all pages throughout the Website are using the **Libre Baskerville** font while the main text is using the **Cabin** font. 
 #### Imagery
@@ -191,6 +191,8 @@ Programs Used section, the contact forms will not store data or send email reque
     * Favicon.io was used to make the site favicon 
 * [Techsini](http://techsini.com/multi-mockup/index.php)
     * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
+* [placehold.it](https://placehold.it)
+    * placehold.it was used to display the colours shown in the Color Scheme section.
 ***
 ## Testing
 
