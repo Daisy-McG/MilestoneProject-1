@@ -45,7 +45,7 @@ input[type='checkbox']{
 
 .hr-style {
     border: 1px solid #1e7e34;
-    max-width: 25%;
+    width: 25%;
 }
 
 .center-img {
