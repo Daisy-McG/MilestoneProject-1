@@ -277,4 +277,4 @@ Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my
 I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.<br>
 
 ## Comments
-Git commits are showing up as two contributors, one as Your Name and one verified as Daisy-McG. This was caused by pushing without setting a signature for commits from VS Code, a signature was added on 26/10/2020 and all new commits are now verified. All commits were pushed by Daisy McGirr.
+Git commits are showing up as two contributors, one as Your Name and one verified as Daisy-McG. This was caused by pushing without setting a signature for commits from VS Code, a signature was added on 25/10/2020 and all new commits are now verified. All commits were pushed by Daisy McGirr.
