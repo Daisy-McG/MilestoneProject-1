@@ -32,6 +32,7 @@
   * [Content](#Content)
   * [Media](#Media)
   * [Acknowledgements](#Acknowledgements)
+  * [Comments](#Comments)
 
 # Milestone Project 1
 ## Purpose
@@ -238,6 +239,7 @@ Website was tested by running locally and tested on the deployed version. No dif
 * On extra wide screens content was being stretched across the entire width of the screen. This was fixed by changing container-fluid to container.
 * Modal Booking form was accepting any inputs in fields. This was resolved by adding the required attribute to all fields.
 * Carousel on Events page was expanding the full width of the screen, this was causing the images to be distorted and strected. This was resolved by by adding a maximum height and width to the containing div.
+* On the Gallery page, the HR was sitting beside the title on large and medium screen sizes. This was resolved by wrapping the titles into a a div and assigning col-12 class.
 ***
 ## Deployment
 
@@ -273,3 +275,6 @@ The YouTube video on the events page is property of Marijus Ltu. Permission was 
 I'd like to thank my mentor Spencer Baribell for his guidance throughout my project.<br>
 Thanks to fellow classmate @Jay Bradley for helping me figure out how to link my TOC to headings with spaces.<br>
 I'd like to give a special mention to past students Anthony and Mr_Bim_alumni who guided me and helped me learn to debug with developer tools whenever I faced alignment issues with my Website.<br>
+
+## Comments
+Git commits are showing up as two contributors, one as Your Name and one verified as Daisy-McG. This was caused by pushing without setting a signature for commits from VS Code, a signature was added on 26/10/2020 and all new commits are now verified. All commits were pushed by Daisy McGirr.
