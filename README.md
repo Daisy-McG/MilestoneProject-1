@@ -51,60 +51,60 @@ The live website can be found [here](https://daisy-mcg.github.io/MilestoneProjec
 
 ### User stories
 #### First Time Visitor Goals
-* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-* As a First Time Visitor, I want to view the website and content clearly on my mobile device.
-* As a First Time Visitor, I want to find ways to follow the HOTD Club on different social media platforms.
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
+* As a First Time user, I want to be able to easily navigate throughout the site to find content.
+* As a First Time user, I want to view the website and content clearly on my mobile device.
+* As a First Time user, I want to find ways to follow the HOTD Club on different social media platforms.
 #### Returning Visitor Goals
-* As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.
-* As a Returning Visitor, I want to contact the organisation so I can request more information.
-#### Frequent User Goals
-* As a Frequent User, I want to check to see if there are any new upcoming events.
-* As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities.
-* As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+* As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry.
+* As a Returning user, I want to contact the organisation so I can request more information.
+#### Frequent Visitor Goals
+* As a Frequent user, I want to check to see if there are any new upcoming events.
+* As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.
+* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 ### Structure
 All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily.
 The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices.
 The purpose of this is to fulfill user story:
-> As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+> As a First Time user, I want to be able to easily navigate throughout the site to find content.
 
 The Home Page will contain a small bio about the club.
 The purpose of this is to fulfill user story:
-> As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+> As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Boostrap Grid system.
 
 All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
 images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
 The purpose of this is to fulfill user story:
-> As a First Time Visitor, I want to view the website and content clearly on my mobile device.
+> As a First Time user, I want to view the website and content clearly on my mobile device.
 
 All pages will contain a Footer Element with Contact Information, Event Booking and Social Media Icons. The icons used will be
 from font-awesome. These are referenced below in the Frameworks-Libraries-and-Programs-Used section of this document. The event 
 Booking section will not be visible on smaller devices. The aim of the Footer elements are to fulfill user stories:
-> As a First Time Visitor, I want to find ways to follow the HOTD Club on different social media platforms.<br>
-> As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.<br>
-> As a Returning Visitor, I want to contact the club so I can request more information.
+> As a First Time user, I want to find ways to follow the HOTD Club on different social media platforms.<br>
+> As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry.<br>
+> As a Returning user, I want to contact the club so I can request more information.
 
 The About Page will contain The History of the Club, their current members, titles and personal bios. This page is to help 
 implement user story:
-> As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+> As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 The Events Page will contain information on upcoming and previous events run by the Club. There will be a booking form 
 connected to this page. 
 The purpose of this is to fulfull user stories:
-> As a Returning Visitor, I want to order tickets online in advance of events so that I am garanteed entry.<br>
-> As a Frequent User, I want to check to see if there are any new upcoming events.
+> As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry.<br>
+> As a Frequent user, I want to check to see if there are any new upcoming events.
 
 The Gallery Page will contain several Galleries with 8 photographs in each from various activities the club has engaged in.
 The purpose of these galleries are to fulfill user story:
-> As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities.
+> As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.
 
 The Contact Page will contain a form that can be used to contact the Club through the website. This will also contain a check 
 box that will allow the user to sign up for the Clubs newsletter in order to keep up to date with the club.
 The purpose of this Page is to fulfill user stories:
-> As a Returning Visitor, I want to contact the organisation so I can request more information.<br>
-> As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+> As a Returning user, I want to contact the organisation so I can request more information.<br>
+> As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 Throughout the desktop version of the website there will also be an alert at the top of all pages except the Events Page. This
 can be engaged with by the user. The resulting action will open up a modal form to allow the user to book event tickets.
