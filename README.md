@@ -26,6 +26,7 @@
     * [Test Results](#Test-Results)
     * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
+    * [Project Creation](#Project-Creation)
     * [GitHub Pages](#Using-Github-Pages)
     * [Locally](Run-Locally)
 * [Credits](#Credits)
@@ -39,13 +40,13 @@
 This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
 It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
+The live website can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).s
+
 ## Hair O' The Dog MCC (HOTD) Responsive Website
 
 ![Website Mock Up](assets/images/readme-images/mock-up.jpg)
 
 The Hair O' The Dog Motorcycle club Website was built at the request of Club Founder Rocket. The client wanted a fully responsive website that could be used to advertise and showcase their club and all activites. The client wants the ability to increase ticket sales for charity events by selling them though the website. Club information that is critical to the Website for the purpose of recruitment is information on the clubs values and the heirarchy of members. 
-
-The live website can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).
 
 *** 
 ## User Experience Design
@@ -213,6 +214,8 @@ All links to external websites must open in a new browser.
 
 Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
 
+Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
+
 The live Project can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).</br>
 #### High Level Test Cases 
 ![Test Cases](assets/images/readme-images/high-level-tests.jpg)
@@ -229,6 +232,18 @@ All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) a
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
 Website was tested by running locally and tested on the deployed version. No differences found.
 
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure Club information was displayed on the Home Page.
+* As a First Time user, I want to be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure users can easily navigate the Website.
+* As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
+* As a First Time user, I want to find ways to follow the HOTD Club on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
+
+* As a Returning user, I want to order tickets online in advance of events so that I am garanteed entry. - Testing was performed to ensure the Booking Modal(Alert on the top of Pages and Booking Button on Events Page) was functioning throughout the Website.
+* As a Returning user, I want to contact the organisation so I can request more information. - Testing was done to ensure there was a contact form on the Website and that the Footer also contained contact information.
+
+* As a Frequent user, I want to check to see if there are any new upcoming events. - Testing was done to ensure upcoming events were displayed on the Events Page.
+* As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities. - Testing was performed to ensure a gallery had been added with photos from the clubs activities.
+* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing was performed to validate a checkbox had been added to the contact form allowing users to sign up for the Club newsletter.
+
 ### Issues and Resolutions to issues found during testing
 * Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
 * Photo alignment issue on Home Page, this was fixed by adding bootstrap classes d-flex align-items-center and img-fluid.
@@ -243,8 +258,17 @@ Website was tested by running locally and tested on the deployed version. No dif
 ***
 ## Deployment
 
+### Project Creation
+The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input MilestoneProject-1 and checked the Include all branches checkbox. I then navigated to the new [repository](https://github.com/Daisy-McG/MilestoneProject-1). I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
+
+Opening a bash terminal in Visual studio code I then typed git clone [link from clipboard](https://github.com/Daisy-McG/MilestoneProject-1.git) followed by open folder and navigating to the newly created local repository. The following commands were used throughout the project:
+
+* git add filename - This command was used to add fils to the staging area before commiting.
+* git commit -m *commit message explaining the updates* - This command was used to to commit changes to the local repository.
+* git push - This command is used to push all commited changes to the GitHub repository. 
+
 ### Using Github Pages
-1. Navigate to the GitHub Repository: https://github.com/Daisy-McG/MilestoneProject-1
+1. Navigate to the GitHub [Repository:](https://github.com/Daisy-McG/MilestoneProject-1)
 1. Click the 'Settings' Tab.
 1. Scroll Down to the Git Hub Pages Heading.
 1. Select 'Master Branch' as the source.
@@ -252,9 +276,9 @@ Website was tested by running locally and tested on the deployed version. No dif
 1. Click on the link to go to the live deployed page.
 
 ### Run Locally
-1. Navigate to the GitHub Repository: https://github.com/Daisy-McG/MilestoneProject-1
+1. Navigate to the GitHub [Repository:](https://github.com/Daisy-McG/MilestoneProject-1)
 1. Click the Code drop down menu.
-1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the dialogue box.
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
 1. Open your developement editor of choice and open a terminal window in a directory of your choice.
 1. Use the 'git clone' command in terminal followed by the copied git URL.
 1. A clone of the project will be created locally on your machine.
