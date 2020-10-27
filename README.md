@@ -40,7 +40,7 @@
 This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
 It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
-The live website can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).s
+The live website can be found [here](https://daisy-mcg.github.io/MilestoneProject-1/index.html).
 
 ## Hair O' The Dog MCC (HOTD) Responsive Website
 
